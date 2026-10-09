@@ -26,6 +26,7 @@ class DeviceStatus:
                                  # tray's input wake fires only for these - an icon
                                  # greyed because its device is off must not re-poll
                                  # the app on every keystroke (review, #202).
+    charging_known: bool = True  # False: level valid, charger query unavailable; suppress alerts
 
 
 class Provider:
