@@ -362,7 +362,7 @@ remains visible with "charging status unknown". Low-battery notifications, sound
 full-charge notifications and time-left estimates are suppressed until a known
 charger state returns. Diagnostics include the interface and matching reply bytes.
 
-Source: the [Linux NVIDIA SHIELD HID driver](https://github.com/torvalds/linux/blob/master/drivers/hid/hid-nvidia-shield.c),
+Source: the [Linux NVIDIA SHIELD HID driver](https://github.com/torvalds/linux/blob/8fa7292fee5c5240402371ea89ab285ec856c916/drivers/hid/hid-nvidia-shield.c),
 hostcmd structures and battery/charger parsing functions.
 
 ### Sony DualSense (PS5)

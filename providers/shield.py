@@ -2,7 +2,7 @@
 
 Protocol: Linux drivers/hid/hid-nvidia-shield.c, hostcmd request/response
 structures and thunderstrike_parse_battery_payload/charger_payload:
-https://github.com/torvalds/linux/blob/master/drivers/hid/hid-nvidia-shield.c
+https://github.com/torvalds/linux/blob/8fa7292fee5c5240402371ea89ab285ec856c916/drivers/hid/hid-nvidia-shield.c
 
 Only battery (7), charger (58) and board-info (16) queries are sent. Reports are 33 bytes:
 output [4, command, 0, ...]; input [3, command, 0, payload...]. Battery
